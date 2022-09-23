@@ -14,4 +14,4 @@ The STATION table is described as follows:
 where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 answer:
-select count(CITY)- count(distinct CITY) from STATION
+select count(CITY)- count(distinct CITY) from STATION;
